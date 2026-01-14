@@ -17,8 +17,8 @@ export function Header() {
 
         <div className="flex-1">
           <input
-            className="w-full rounded-xl border px-3 py-2"
-            placeholder="Search products..."
+            className="w-full rounded-xl border-2 border-primary px-3 py-2"
+            placeholder="Искать на Ozon"
           />
         </div>
 

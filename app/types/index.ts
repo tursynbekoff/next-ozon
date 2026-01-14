@@ -8,3 +8,10 @@ export type Product = {
   score: number; // average rating from 0 to 5
   reviewsCount: number; // total number of reviews
 };
+
+export type Slide = {
+  id: string;
+  src: string;
+  alt: string;
+  link: string;
+}
