@@ -1,6 +1,4 @@
-function generateStaticParams() {}
- 
-export default async function  Page({params}: {params: {slug: string}}) {
+ export default async function  Page({params}: {params: {slug: string}}) {
 
   const { slug } = await params;
   console.log('params', params);
